@@ -94,7 +94,7 @@ include 'config/database.php';
 										if ($num > 0)
 										{
 										// mengambil hasil query dan me-looping dengan while
-										while ($data = mysql_fetch_array($query)) {?>
+										while ($data = mysql_fetch_array ($query)) {?>
 										<tr>
 											<td><?php echo $data['id']; ?></td>
 											<td><?php echo $data['nama']; ?></td>
