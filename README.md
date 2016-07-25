@@ -1,6 +1,6 @@
 # Contoh Aplikasi CRUD
 
-Contoh aplikasi crud sederhana menggunakan bahasa pemograman PHP dan Mysql
+Contoh aplikasi crud sederhana menggunakan bahasa pemograman PHP , Mysql dan Bootstrap sebagai CSS Framework
 
 ## Requirements
 
