@@ -85,7 +85,7 @@ if(!isset($_SESSION['username']) && empty($_SESSION['username']))
 									<a href="search.php" title="Pencarian data" class="btn btn-large btn-block btn-primary big-icon"><span class="glyphicon glyphicon-search"></span><br>Cari Data Warga</a>
 								</div>
 								<div class="col-md-2">
-									<a href="actions/logout.php" title="keluar" class="btn btn-large btn-block btn-primary big-icon"><span class="glyphicon glyphicon-off"></span><br>Keluar</a>
+									<a href="actions/logout.php" title="keluar" onclick="return confirm('Apakah yakin keluar?')" class="btn btn-large btn-block btn-primary big-icon"><span class="glyphicon glyphicon-off"></span><br>Keluar</a>
 								</div>
 							</div>
 							</div>
