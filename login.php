@@ -44,12 +44,6 @@
 						<li>
 							 <div class="row">
 									<div class="col-md-12">
-										Login via
-										<div class="social-buttons">
-											<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-											<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
-										</div>
-		                                or
 										 <form class="form" role="form" method="post" action="actions/login.php" accept-charset="UTF-8" id="login-nav">
 												<div class="form-group">
 													 <label class="sr-only" for="exampleInputEmail2">Email address</label>
@@ -69,9 +63,6 @@
 													 </label>
 												</div>
 										 </form>
-									</div>
-									<div class="bottom text-center">
-										New here ? <a href="#"><b>Join Us</b></a>
 									</div>
 							 </div>
 						</li>
