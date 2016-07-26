@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 23, 2016 at 11:25 AM
+-- Generation Time: Jul 26, 2016 at 08:24 PM
 -- Server version: 5.5.46-0ubuntu0.14.04.2
 -- PHP Version: 5.5.9-1ubuntu4.14
 
@@ -33,14 +33,16 @@ CREATE TABLE IF NOT EXISTS `tbl_warga` (
   `pekerjaan` varchar(25) NOT NULL,
   `umur` int(3) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `tbl_warga`
 --
 
 INSERT INTO `tbl_warga` (`id`, `nama`, `status`, `pekerjaan`, `umur`) VALUES
-(1, 'Ahmad Sanusi', 'Menikah', 'UX Designer', 28);
+(1, 'Ahmad Sanusi', 'Menikah', 'UX Designer', 28),
+(2, 'Ater', 'Belum Menikah', 'Welding', 21),
+(3, 'Reza Shintia Dewi', 'Menikah', 'Craft Designer', 21);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
